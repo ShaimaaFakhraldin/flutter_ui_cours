@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_cours/state_full_example.dart';
 import 'package:flutter_ui_cours/state_less_example.dart';
+// online
+// offline
+// in app
+
 ///  change
 void main() {
  runApp(MaterialApp(
