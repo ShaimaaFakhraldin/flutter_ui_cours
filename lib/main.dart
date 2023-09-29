@@ -1,18 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_cours/state_full_example.dart';
-import 'package:flutter_ui_cours/state_less_example.dart';
-import 'package:flutter_ui_cours/widgets/container_example.dart';
-import 'package:flutter_ui_cours/widgets/text_example_class.dart';
+import 'package:flutter_ui_cours/widgets/images_example.dart';
 // online
 // offline
 // in app
 
 ///  change
 void main() {
- runApp(MaterialApp(
-   home:   ContainerExample(),
- ));
+  runApp(MaterialApp(
+    home: ImageExample(),
+  ));
 }
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
