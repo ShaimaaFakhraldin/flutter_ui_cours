@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_cours/widgets/layouts/listview_example.dart';
+import 'package:flutter_ui_cours/widgets/layouts/nested_scrollview_example.dart';
 // online
 // offline
 // in app
 
-///  change
 void main() {
   runApp(MaterialApp(
-    home: ListViewExample(),
-  ));
+      home: Scaffold(
+    body: NestedScrollviewExample(),
+  )));
 }
