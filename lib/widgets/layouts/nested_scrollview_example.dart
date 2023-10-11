@@ -19,7 +19,7 @@ class _NestedScrollviewExampleState extends State<NestedScrollviewExample> {
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return [
             const SliverAppBar(
-              title: const Text("NestedScrollview example "),
+              title: Text("NestedScrollview example "),
               expandedHeight: 200,
               pinned: false,
               // forceElevated: innerBoxIsScrolled,
