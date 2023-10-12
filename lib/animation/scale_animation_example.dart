@@ -28,14 +28,14 @@ class _ScaleanimationExampleState extends State<ScaleanimationExample>
       appBar: AppBar(),
       body: ScaleTransition(
         scale: animation!,
-        child: const Row(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(
               Icons.ac_unit,
               size: 100,
               color: Colors.yellow,
-            )
+            ),
           ],
         ),
       ),

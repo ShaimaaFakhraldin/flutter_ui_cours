@@ -67,6 +67,7 @@ flutter:
       - assets/google.png
       - assets/phone.svg
       - assets/images/
+      - assets/images/users/
 
   #   - images/a_dot_ham.jpeg
 
