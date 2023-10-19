@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_cours/navigation/home_screen.dart';
 import 'package:flutter_ui_cours/navigation/login_screen.dart';
+import 'package:flutter_ui_cours/widgets/layouts/stack_example.dart';
 
 import 'navigation/forget_password_screen.dart';
-import 'navigation/tabbed_example.dart';
 
 // online
 // offline
@@ -47,5 +47,5 @@ void main() {
       },
 
       // initialRoute: "/",
-      home: TabbedExample()));
+      home: StackExample()));
 }
